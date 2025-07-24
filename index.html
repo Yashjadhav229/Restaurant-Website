@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodie's Delight</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="images/logo.png" alt="Foodie's Delight Logo"/>
+      <span>Foodie's Delight</span>
+    </div>
+    <div class="menu-links">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#orderForm" class="order-nav-button">Order Now</a>
+    </div>
+  </nav>
+
+  <header id="home">
+    <h1 class="hero-heading">Welcome to Foodie's Delight</h1>
+  </header>
+
+  <section id="menu" class="section fade-in-up">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="menu-item"><img src="images/burger.jpg" alt="Burger"/><h3>Classic Burger</h3></div>
+      <div class="menu-item"><img src="images/pasta.jpg" alt="Pasta"/><h3>Italian Pasta</h3></div>
+      <div class="menu-item"><img src="images/pizza.jpg" alt="Pizza"/><h3>Cheesy Pizza</h3></div>
+      <div class="menu-item"><img src="images/salad.jpg" alt="Salad"/><h3>Fresh Salad</h3></div>
+      <div class="menu-item"><img src="images/dessert.jpg" alt="Dessert"/><h3>Sweet Desserts</h3></div>
+      <div class="menu-item"><img src="images/coffee.jpg" alt="Coffee"/><h3>Hot Beverages</h3></div>
+    </div>
+  </section>
+
+  <section id="about" class="section fade-in-up">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <img src="images/chef.jpg" alt="Our Chef"/>
+      <p>At Foodie’s Delight, we believe food is more than just a meal—it’s an experience.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section fade-in-up">
+    <h2>Contact Us</h2>
+    <div class="contact-content">
+      <img src="images/interior.jpg" alt="Restaurant Interior"/>
+      <p><strong>Email:</strong> contact@foodiesdelight.com</p>
+    </div>
+  </section>
+
+  <form id="orderForm">
+    <h2>Order Now</h2>
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <input type="text" id="food" placeholder="Food Item" required />
+    <textarea id="message" placeholder="Special Instructions"></textarea>
+    <button type="submit">Submit Order</button>
+  </form>
+
+  <footer>
+    <p>&copy; 2025 Foodie's Delight. All rights reserved.</p>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
